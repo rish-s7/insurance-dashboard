@@ -8,19 +8,21 @@ A full-stack data analytics and visualization project showcasing an end-to-end d
 
 
 
-##### 📋Project Overview
+##### **## 📋Project Overview**
 
 
 
-This project processes multi-year insurance portfolio records (2005–2015) to analyze and evaluate core underwriting and business performance metrics. It tracks key performance indicators—including written premiums, loss ratios, retention rates, hit ratios, and producer scaling dynamics—across multiple regional US markets (MI, PA, WV, OH, KY, IN) and product lines (commercial and personal).
+This project processes 213,000 multi-year Kaggle insurance records (2005–2015) to analyze and evaluate core underwriting and business performance metrics. It tracks key performance indicators—including written premiums, loss ratios, retention rates, hit ratios, and producer scaling dynamics—across multiple regional US markets (MI, PA, WV, OH, KY, IN) and product lines (commercial and personal).
 
 
 
 
 
-##### 🗂️ Repository Structure
+##### **## 🗂️ Repository Structure**
 
 
+
+```text
 
 insurance-portfolio-dashboard/
 
@@ -28,41 +30,39 @@ insurance-portfolio-dashboard/
 
 ├── data/
 
-│   ├── insurance\_api.csv          		# Raw data extracted from source API
+│   ├── insurance\_api.csv          		# Raw data extracted from Kaggle API
 
 │   └── insurance\_data\_clean.csv   		# Cleaned, standardized, and validated dataset
 
 │
 
-├── notebooks/
+├── analysis/
 
 │   └── api\_cleanup.ipynb          		# Jupyter notebook for data wrangling and transformation
 
 │
 
-├── analysis/
-
-│   └── Insurance\_Portfolio\_Dashboard.xlsx 	# Excel model containing pivot tables \& metrics
-
-│
-
-├── dashboard/
+├── docs/
 
 │   ├── generate\_dashboard.py      		# Python script compiling Bokeh layouts, CSS, and JS callbacks
 
-│   └── index.html             		# Fully interactive, standalone generated dashboard
+│   ├── Insurance\_Portfolio\_Dashboard.xlsx	# Excel model containing pivot tables \& metrics
+
+│   └── index.html             			# Fully interactive, standalone generated dashboard
 
 │
 
 ├── requirements.txt
 
+├── LICENSE.txt
+
 └── README.md
 
+```
 
 
 
-
-##### 🛠️ Skills Demonstrated
+##### **## 🛠️ Skills Demonstrated**
 
 
 
@@ -74,7 +74,7 @@ insurance-portfolio-dashboard/
 
 
 
-##### 📈 Key Dashboard Features
+##### **## 📈 Key Dashboard Features**
 
 
 
@@ -89,7 +89,19 @@ insurance-portfolio-dashboard/
 
 
 
-##### **🚀 How to Run Locally**
+##### **## 🌐 Live Demo**
+
+
+
+You can view and interact with the live dashboard directly in your browser without installing any code:
+
+👉 [Interactive Dashboard](https://rish-s7.github.io/insurance-dashboard/)
+
+
+
+
+
+##### **## 🚀 How to Run Locally**
 
 
 
@@ -101,9 +113,13 @@ Clone the repository:
 
 
 
+```bash
+
 git clone https://github.com/rish-s7/insurance-dashboard.git
 
 cd insurance-dashboard
+
+```
 
 
 
@@ -111,7 +127,11 @@ Install dependencies:
 
 
 
+```bash
+
 pip install -r requirements.txt
+
+```
 
 
 
@@ -119,13 +139,15 @@ Run the dashboard generator script:
 
 
 
+```bash
+
 python dashboard/generate\_dashboard.py
+
+```
 
 
 
 View the dashboard:
-
-
 
 Open dashboard/index.html directly in any modern web browser to interact with the application.
 
