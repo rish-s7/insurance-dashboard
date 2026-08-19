@@ -33,9 +33,9 @@ insurance-dashboard/
 │   └── api_cleanup.ipynb          		    # Jupyter notebook for data wrangling and transformation
 │
 ├── docs/
-│   ├── generate_html_dashboard.py        # Python script compiling Bokeh layouts, CSS, and JS callbacks
-│   ├── Insurance_Dashboard_Excel.xlsx	  # Excel model containing pivot tables & metrics
-│   └── index.html             			      # Fully interactive, standalone generated dashboard
+│   ├── generate_html_dashboard.py          # Python script compiling Bokeh layouts, CSS, and JS callbacks
+│   ├── Insurance_Dashboard_Excel.xlsx	    # Excel model containing pivot tables & metrics
+│   └── index.html             			    # Fully interactive, standalone generated dashboard
 │
 ├── images/
 │   └── dashboard_preview.png         		# Image of example dashboard
@@ -121,7 +121,7 @@ Run the dashboard generator script:
 
 ```bash
 
-python dashboard/generate_dashboard.py
+python dashboard/generate_html_dashboard.py
 
 ```
 
