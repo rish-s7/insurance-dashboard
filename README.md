@@ -8,7 +8,7 @@ A full-stack data analytics and visualization project showcasing an end-to-end d
 
 
 
-##### **## 📋Project Overview**
+### **📋Project Overview**
 
 
 
@@ -18,53 +18,34 @@ This project processes 213,000 multi-year Kaggle insurance records (2005–2015)
 
 
 
-##### **## 🗂️ Repository Structure**
+## **🗂️ Repository Structure**
 
 
 
 ```text
-
 insurance-portfolio-dashboard/
 
 │
-
 ├── data/
-
-│   ├── insurance\_api.csv          		# Raw data extracted from Kaggle API
-
-│   └── insurance\_data\_clean.csv   		# Cleaned, standardized, and validated dataset
-
+│   ├── insurance\api.csv          		# Raw data extracted from Kaggle API
+│   └── insurance\data\clean.csv   		# Cleaned, standardized, and validated dataset
 │
-
 ├── analysis/
-
-│   └── api\_cleanup.ipynb          		# Jupyter notebook for data wrangling and transformation
-
+│   └── api\cleanup.ipynb          		# Jupyter notebook for data wrangling and transformation
 │
-
 ├── docs/
-
-│   ├── generate\_dashboard.py      		# Python script compiling Bokeh layouts, CSS, and JS callbacks
-
-│   ├── Insurance\_Portfolio\_Dashboard.xlsx	# Excel model containing pivot tables \& metrics
-
+│   ├── generate\dashboard.py      		# Python script compiling Bokeh layouts, CSS, and JS callbacks
+│   ├── Insurance\Portfolio\Dashboard.xlsx	# Excel model containing pivot tables & metrics
 │   └── index.html             			# Fully interactive, standalone generated dashboard
-
 │
-
 ├── requirements.txt
-
 ├── LICENSE.txt
-
 └── README.md
-
 ```
 
 
 
-##### **## 🛠️ Skills Demonstrated**
-
-
+### **🛠️ Skills Demonstrated**
 
 * **Python**: Data wrangling, normalization, and automated pipelines via Pandas.
 * **Data Visualization**: Bokeh (featuring custom client-side CustomJS filtering callbacks and dual-axis charts).
@@ -73,9 +54,7 @@ insurance-portfolio-dashboard/
 
 
 
-
-##### **## 📈 Key Dashboard Features**
-
+## **📈 Key Dashboard Features**
 
 
 * **Executive KPI Block**: Real-time summary cards displaying Total Written Premium (in Billions), Average Loss Ratio, Average Retention Rate, and Total Active Agencies.
@@ -88,8 +67,7 @@ insurance-portfolio-dashboard/
 
 
 
-
-##### **## 🌐 Live Demo**
+## **🌐 Live Demo**
 
 
 
@@ -101,7 +79,7 @@ You can view and interact with the live dashboard directly in your browser witho
 
 
 
-##### **## 🚀 How to Run Locally**
+### **🚀 How to Run Locally**
 
 
 
@@ -141,7 +119,7 @@ Run the dashboard generator script:
 
 ```bash
 
-python dashboard/generate\_dashboard.py
+python dashboard/generate_dashboard.py
 
 ```
 
