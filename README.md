@@ -7,14 +7,14 @@ A full-stack data analytics and visualization project showcasing an end-to-end d
 
 
 
-
-### **📋Project Overview**
+## **📋Project Overview**
 
 
 
 This project processes 213,000 multi-year Kaggle insurance records (2005–2015) to analyze and evaluate core underwriting and business performance metrics. It tracks key performance indicators—including written premiums, loss ratios, retention rates, hit ratios, and producer scaling dynamics—across multiple regional US markets (MI, PA, WV, OH, KY, IN) and product lines (commercial and personal).
 
 
+![Dashboard Preview](images/dashboard_preview.png)
 
 
 
@@ -23,20 +23,22 @@ This project processes 213,000 multi-year Kaggle insurance records (2005–2015)
 
 
 ```text
-insurance-portfolio-dashboard/
-
+insurance-dashboard/
 │
 ├── data/
-│   ├── insurance\api.csv          		# Raw data extracted from Kaggle API
-│   └── insurance\data\clean.csv   		# Cleaned, standardized, and validated dataset
+│   ├── insurance_api.csv          		    # Raw data extracted from Kaggle API
+│   └── insurance_data_clean.csv   		    # Cleaned, standardized, and validated dataset
 │
 ├── analysis/
-│   └── api\cleanup.ipynb          		# Jupyter notebook for data wrangling and transformation
+│   └── api_cleanup.ipynb          		    # Jupyter notebook for data wrangling and transformation
 │
 ├── docs/
-│   ├── generate\dashboard.py      		# Python script compiling Bokeh layouts, CSS, and JS callbacks
-│   ├── Insurance\Portfolio\Dashboard.xlsx	# Excel model containing pivot tables & metrics
-│   └── index.html             			# Fully interactive, standalone generated dashboard
+│   ├── generate_html_dashboard.py        # Python script compiling Bokeh layouts, CSS, and JS callbacks
+│   ├── Insurance_Dashboard_Excel.xlsx	  # Excel model containing pivot tables & metrics
+│   └── index.html             			      # Fully interactive, standalone generated dashboard
+│
+├── images/
+│   └── dashboard_preview.png         		# Image of example dashboard
 │
 ├── requirements.txt
 ├── LICENSE.txt
@@ -45,7 +47,7 @@ insurance-portfolio-dashboard/
 
 
 
-### **🛠️ Skills Demonstrated**
+## **🛠️ Skills Demonstrated**
 
 * **Python**: Data wrangling, normalization, and automated pipelines via Pandas.
 * **Data Visualization**: Bokeh (featuring custom client-side CustomJS filtering callbacks and dual-axis charts).
@@ -79,7 +81,7 @@ You can view and interact with the live dashboard directly in your browser witho
 
 
 
-### **🚀 How to Run Locally**
+## **🚀 How to Run Locally**
 
 
 
